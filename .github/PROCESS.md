@@ -6,6 +6,7 @@ This document is to describe the internal process that the LinkUp team uses for 
  * [Project Boards](#project-boards)
  * [Managing Issues](#managing-issues)
  * [Workflow](#workflow)
+ * [Environments](#environments)
  * [Releasing](#releasing)
 
 ## Project Boards
@@ -59,3 +60,15 @@ Issue can be related to GitHub projects. You can set it during issue creation.
 ### Milestone
 
 We are working with small milestones for one or two or more weeks. So, when you add issue you can choose the current milestone or create a new one.
+
+## Workflow
+
+Follow [workflow process](PROCESS_WORKFLOW.md) instructions
+
+## Environments
+
+Follow [environments process](PROCESS_ENVIRONMENTS.md) instructions
+
+## Releasing
+
+Follow [releasing process](PROCESS_RELEASING.md) instructions
