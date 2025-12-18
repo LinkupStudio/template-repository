@@ -155,7 +155,9 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    Local --> Dev[Development] --> Preview --> Staging --> Production
+    Local --> Dev[Development] --> Feature Preview --> Staging --> Production
+    OR
+    Local --> Development Preview --> Dev[Development]  --> Staging --> Production
 ```
 
 **When to use:**
