@@ -153,11 +153,16 @@ flowchart LR
 
 ### Approach B: Standard Pipeline
 
+**Option 1: Feature Preview after Development**
 ```mermaid
 flowchart LR
-    Local --> Dev[Development] --> Feature Preview --> Staging --> Production
-    OR
-    Local --> Development Preview --> Dev[Development]  --> Staging --> Production
+    Local --> Dev[Development] --> Preview[Feature Preview] --> Staging --> Production
+```
+
+**Option 2: Development Preview before Development**
+```mermaid
+flowchart LR
+    Local --> Preview[Development Preview] --> Dev[Development] --> Staging --> Production
 ```
 
 **When to use:**
